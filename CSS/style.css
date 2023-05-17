@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html
+body {
+    
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-image: url('../slike/bg3.jpg');
+    background-size: cover;
+    backdrop-filter: blur(2px);
+
+}
+
+@font-face {
+    font-family: 'Cafelatte';
+    src: url('../fonts/Cafelatte-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family:'Petal';
+    src: url('../fonts/PetalaPro-Light.otf') format('opentype');
+}
+
+
+#naslov {
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    font-family: 'Cafelatte', sans-serif;
+    color:white;
+    font-size: 30px;
+    backdrop-filter: blur(2px);
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: #ff0043;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: -140px;
+    
+
+}
+.top-line {
+    width: 99.9%;
+    height: 160px;
+    background-color: #7700c8;
+    margin: 0 auto;
+    outline-color: none;
+    position: relative;
+    z-index: 1;
+    border: none;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+  }
+
+#glavni {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 55%;
+
+    
+}
+
+
+#igrac {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+
+.igralec {
+
+    min-height: 200px;
+    width: 100%;
+    color:white;
+    margin-top: 35.5%;
+    background-color: #7700c8;
+    font-family: 'Petal', sans-serif;
+    font-size: 30px;
+    padding-top: 25px;
+
+}
+
+#izbira {
+    width: 100%;
+    margin-top: 35.5%;
+    text-align: center;
+    backdrop-filter: blur(40px);
+    color:white;
+    background-color: #ff0043;
+    font-family: 'Petal', sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+}
+.gumb {
+    margin-top: 65px;
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: #948c94;
+    color:white; 
+    border: none;
+  }
+  .gumb:hover {
+    transition: background-color 0.6s ease;
+    background-color: #3A3738;
+  }
+  
+  .gumb:active {
+    background-color: #7700c8;
+
+  }
+  input[type="text"] {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Petal', sans-serif;
+    color:white;
+    height: 30px; 
+    font-size: 15px;
+    background-color: #ff0043; 
+    border: none;
+    transition: 0.5s;
+  }
+  input[type="text"]:focus {
+    border-color: #120206;
+    outline-color: #120206; 
+    background-color: #460062; 
+  }
+  input[type="text"]:hover {
+    border-color: #ff0043;
+    background-color: #70029b;
+    transition: background-color 0.1s ease; 
+  }
+  select {
+    width: 60px; 
+    height: 30px; 
+    background-color: #948c94;
+    border: none;
+    color:white;
+  }
+  select:hover{
+    background-color: #3A3738;
+    transition: background-color 0.3s ease;
+  }
+  .igralec::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000000; 
+    position: absolute;
+    top: calc(77% + 10px);
+    left: 0;
+    transform: translateY(50%);
+  }
+  
+  #izbira::after {
+    content: '';
+    display: block;
+    width: 100%; 
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    top: calc(47% + 8px);
+    left: 0;
+    transform: translateY(50%);
+  }
+ 
+  

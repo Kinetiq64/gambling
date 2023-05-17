@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html
+body {
+    
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-image: url('../slike/bg3.jpg');
+    background-size: cover;
+    backdrop-filter: blur(2px);
+
+}
+@font-face {
+    font-family: 'Cafelatte';
+    src: url('../fonts/Cafelatte-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family:'Petal';
+    src: url('../fonts/PetalaPro-Light.otf') format('opentype');
+}
+
+#naslov {
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    font-family: 'Cafelatte', sans-serif;
+    color:white;
+    font-size: 30px;
+    backdrop-filter: blur(2px);
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: #ff0043;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: -140px;
+    
+
+}
+
+#glavni {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 55%;
+
+    
+}
+
+
+#igrac {
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+}
+
+.igralec {
+
+    min-height: 100px;
+    width: 100%;
+    color:white;
+    margin-top: 35.5%;
+    background-color: #7700c8;
+    font-family: 'Petal', sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+
+}
+
+#izbira {
+    background: #ff0043;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Petal', sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.gumb{    
+    font-size: 30px;
+    padding: 10px 20px;
+    background-color: #948c94;
+    color:white; 
+    border: none;
+    font-family: 'Petal', sans-serif;
+    margin-bottom: 10px;
+  }
+  .gumb:hover {
+    transition: background-color 0.6s ease;
+    background-color: #3A3738;
+  }
+  
+  .gumb:active {
+    background-color: #7700c8;
+
+  }
+.top-line {
+    width: 99.9%;
+    height: 160px;
+    background-color: #7700c8;
+    margin: 0 auto;
+    outline-color: none;
+    position: relative;
+    z-index: 1;
+    border: none;
+    border-style: none;
+    border-width: 0;
+    border-color: transparent;
+  }
+  .text-beautify {
+    font-family: 'Petal', sans-serif;
+    font-size: 20px;
+    color: #7700c8;
+    font-weight: bold;
+  }
